@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ptr="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.yinglan.swiperefresh.PullToRefreshListView
+        android:id="@+id/pull_to_refresh_pull"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        ptr:ptrAnimationStyle="rotate"
+        ptr:ptrHeaderBackground="#ff00ddff"
+        ptr:ptrHeaderTextColor="#ff669900"
+        ptr:ptrMode="pullFromStart"></com.yinglan.swiperefresh.PullToRefreshListView>
+
+</LinearLayout>
