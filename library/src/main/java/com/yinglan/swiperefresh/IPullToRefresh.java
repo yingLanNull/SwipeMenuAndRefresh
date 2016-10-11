@@ -56,7 +56,6 @@ public interface IPullToRefresh<T extends View> {
 	/**
 	 * Returns a proxy object which allows you to call methods on all of the
 	 * LoadingLayouts (the Views which show when Pulling/Refreshing).
-	 * <p />
 	 * You should not keep the result of this method any longer than you need
 	 * it.
 	 * 
@@ -70,7 +69,6 @@ public interface IPullToRefresh<T extends View> {
 	 * LoadingLayouts (the Views which show when Pulling/Refreshing). The actual
 	 * LoadingLayout(s) which will be affected, are chosen by the parameters you
 	 * give.
-	 * <p />
 	 * You should not keep the result of this method any longer than you need
 	 * it.
 	 * 
@@ -79,7 +77,6 @@ public interface IPullToRefresh<T extends View> {
 
 	/**
 	 * Get the mode that this view has been set to. If this returns
-	 * <code>Mode.BOTH</code>, you can use <code>getCurrentMode()</code> to
 	 * check which mode the view is currently in
 	 * 
 	 */
