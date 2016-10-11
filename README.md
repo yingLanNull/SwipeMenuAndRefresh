@@ -57,6 +57,7 @@ dependencies {
 ###More Usage 更多用法
 
 [SwipeMenu](https://github.com/baoyongzhang/SwipeMenuListView/blob/master/README.md)
+
 [PullToRefresh](https://github.com/chrisbanes/Android-PullToRefresh/blob/master/README.md)
 
 ## Thanks 致谢
@@ -64,6 +65,7 @@ dependencies {
 本库在以下基础上进行了整合调整,增强稳定性,并添加了部分内容。
 
 [Android-PullToRefresh](https://github.com/chrisbanes/Android-PullToRefresh)
+
 [SwipeMenuListView](https://github.com/baoyongzhang/SwipeMenuListView)
 
 ## LICENSE 开源许可
