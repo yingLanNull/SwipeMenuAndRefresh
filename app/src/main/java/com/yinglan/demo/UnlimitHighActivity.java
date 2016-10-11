@@ -8,6 +8,7 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.util.TypedValue;
 import android.view.View;
+import android.widget.AbsListView;
 import android.widget.ListView;
 
 import com.yinglan.demo.adapter.ListLessAdapter;
@@ -54,12 +55,24 @@ public class UnlimitHighActivity extends AppCompatActivity {
 
         ListLessAdapter lessAdapter = new ListLessAdapter(this);
 
-        SwipeMenuHighListView swipeMenuHighListView = (SwipeMenuHighListView) headerView.findViewById(R.id.highsiwpe);
+        final SwipeMenuHighListView swipeMenuHighListView = (SwipeMenuHighListView) headerView.findViewById(R.id.highsiwpe);
         swipeMenuHighListView.setAdapter(lessAdapter);
         swipeMenuHighListView.setMenuCreator(creator);
         swipeMenuHighListView.setOnMenuItemClickListener(lessAdapter);
 
         pulltorefreshpull.getRefreshableView().addHeaderView(headerView);
+
+        pulltorefreshpull.setOnScrollListener(new AbsListView.OnScrollListener() {
+            @Override
+            public void onScrollStateChanged(AbsListView absListView, int i) {
+                swipeMenuHighListView.smoothCloseMenu();
+            }
+
+            @Override
+            public void onScroll(AbsListView absListView, int i, int i1, int i2) {
+
+            }
+        });
     }
 
 
