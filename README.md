@@ -9,6 +9,10 @@
 ![1](https://github.com/yingLanNull/PullToRefreshSwipeMenu_Library/blob/master/show/Screenshot1.png)
 ![2](https://github.com/yingLanNull/PullToRefreshSwipeMenu_Library/blob/master/show/Screenshot2.png)
 ![3](https://github.com/yingLanNull/PullToRefreshSwipeMenu_Library/blob/master/show/Screenshot3.png)
+![4](https://github.com/yingLanNull/PullToRefreshSwipeMenu_Library/blob/master/show/Screenshot4.png)
+![5](https://github.com/yingLanNull/PullToRefreshSwipeMenu_Library/blob/master/show/Screenshot5.png)
+![6](https://github.com/yingLanNull/PullToRefreshSwipeMenu_Library/blob/master/show/Screenshot6.png)
+![7](https://github.com/yingLanNull/PullToRefreshSwipeMenu_Library/blob/master/show/Screenshot7.png)
 
 ## Demo 下载APK体验
 [Download Demo](https://github.com/yingLanNull/PullToRefreshSwipeMenu_Library/blob/master/show/app-debug.apk)
