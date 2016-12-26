@@ -64,7 +64,7 @@ dependencies {
 
 [PullToRefresh](https://github.com/chrisbanes/Android-PullToRefresh/blob/master/README.md)
 
-## Thanks 致谢
+## Thanks
 
 本库在以下基础上进行了整合调整,增强稳定性,并添加了部分内容。
 
