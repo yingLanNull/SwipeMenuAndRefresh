@@ -14,7 +14,7 @@
 ![6](https://github.com/yingLanNull/PullToRefreshSwipeMenu_Library/blob/master/show/Screenshot6.png)
 ![7](https://github.com/yingLanNull/PullToRefreshSwipeMenu_Library/blob/master/show/Screenshot7.png)
 
-## Demo 下载APK体验
+## Demo 下载体验
 [Download Demo](https://github.com/yingLanNull/PullToRefreshSwipeMenu_Library/blob/master/show/app-debug.apk)
 
 ## Usage 使用方法
