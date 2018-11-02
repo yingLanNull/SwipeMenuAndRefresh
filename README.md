@@ -1,5 +1,5 @@
 # SwipeMenuAndRefresh_Library
-## Abstract 摘要
+## Abstract 摘要（停止维护）
 集下拉刷新与侧滑删除于一身的库文件,类似于QQ聊天界面。解决了侧滑与下拉的事件冲突,向下兼容至8,并增加了swipmenu侧滑在特殊场景下scrollview及listview中的嵌套支持。
 
 ## Gif 动画
